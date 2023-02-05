@@ -1,0 +1,15 @@
+.mood {
+  &__image {
+    display: block;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    button {
+      width: 10rem;
+    }
+  }
+}
